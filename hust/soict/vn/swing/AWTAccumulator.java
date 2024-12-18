@@ -2,12 +2,12 @@ package hust.soict.vn.swing;
 
 import java.awt.*;
 import java.awt.event.*;
-public class AWAccumulator extends Frame {
+public class AWTAccumulator extends Frame {
 	private TextField tfInput;
 	private TextField tfOutput;
 	private int sum = 0;
 
-	public AWAccumulator() {
+	public AWTAccumulator() {
 		setLayout (new GridLayout(2, 2));
 		add(new Label("Enter an Integer: "));
 		tfInput = new TextField(10);
@@ -25,7 +25,7 @@ public class AWAccumulator extends Frame {
 	}
 
 	public static void main(String[] args) {
-		new AWAccumulator();
+		new AWTAccumulator();
 
 	}
 	private class TFInputListener implements ActionListener{
