@@ -1,0 +1,68 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CartScreen",
+            "request": "launch",
+            "mainClass": "lab05.Aimsproject.hust.soict.hedspi.aims.screen.CartScreen",
+            "projectName": "OOP_20225800_Lab05",
+            "vmArgs": "--module-path lib --add-modules javafx.controls,javafx.fxml,javafx.swing",
+             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Painter",
+            "request": "launch",
+            "mainClass": "lab05.GUIProject.hust.soict.hedspi.javafx.Painter",
+            "projectName": "OOP_20225800_Lab05",
+            "vmArgs": "--module-path \"C:/Users/84859/Downloads/openjfx-23.0.1_windows-x64_bin-sdk/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+            "args": ""
+        },
+      {
+            "type": "java",
+            "name": "aims",
+            "request": "launch",
+            "mainClass": "lab05.Aimsproject.hust.soict.hedspi.aims.aims",
+            "projectName": "OOP_20225800_Lab05"
+        },
+        {
+            "type": "java",
+            "name": "Media",
+            "request": "launch",
+            "mainClass": "lab05.Aimsproject.hust.soict.hedspi.aims.media.Media",
+            "projectName": "OOP_20225800_Lab05"
+        },
+        {
+            "type": "java",
+            "name": "StoreScreen",
+            "request": "launch",
+            "mainClass": "lab05.Aimsproject.hust.soict.hedspi.aims.screen.StoreScreen",
+            "projectName": "OOP_20225800_Lab05",
+            "vmArgs": "--module-path lib --add-modules javafx.controls,javafx.fxml,javafx.swing",
+             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "AWTAccumulator",
+            "request": "launch",
+            "mainClass": "lab05.GUIProject.hust.soict.hedspi.swing.AWTAccumulator",
+            "projectName": "OOP_20225800_Lab05"
+        },
+        {
+            "type": "java",
+            "name": "NumberGrid",
+            "request": "launch",
+            "mainClass": "lab05.GUIProject.hust.soict.hedspi.swing.NumberGrid",
+            "projectName": "OOP_20225800_Lab05"
+        },
+        {
+            "type": "java",
+            "name": "SwingAccumulator",
+            "request": "launch",
+            "mainClass": "lab05.GUIProject.hust.soict.hedspi.swing.SwingAccumulator",
+            "projectName": "OOP_20225800_Lab05"
+        }
+    ]
+}
