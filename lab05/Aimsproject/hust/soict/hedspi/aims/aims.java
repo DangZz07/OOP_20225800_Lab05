@@ -255,6 +255,7 @@ public class aims {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public static ArrayList<Media> sortMediaCart(Scanner aims) {
         System.out.print("Please choose the option to sort media in cart: ");
         System.out.println("1: By title, 2: By id");
